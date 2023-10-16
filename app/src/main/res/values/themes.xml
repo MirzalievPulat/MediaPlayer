@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MediaPlayer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/main</item>
+         <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/main</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+    <style name="Theme.MediaPlayer" parent="Base.Theme.MediaPlayer" />
+
+    <style name="roundImage">
+        <item name="cornerSize">40%</item>
+    </style>
+
+</resources>
